@@ -23,7 +23,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   void initState() {
     super.initState();
     // Load weather for London when app starts
-    weatherFuture = WeatherService.getWeather('London');
+    weatherFuture = WeatherService.getWeather('Potrero');
   }
 
   // Function: Handle search button press
